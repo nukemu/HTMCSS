@@ -14,7 +14,6 @@
             z-index: -1;
             object-fit: cover;
         }
-
         /* Стили для контейнера входа */
         .login-container {
             position: relative; /* Важно для z-index */
@@ -34,16 +33,13 @@
             color: #333
         }
 
-        /* Общие стили body (минимальные) */
         body {
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-
         }
 
-        /* Остальные стили */
         .login-btn {
             background-color: #4CAF50;
             color: white;

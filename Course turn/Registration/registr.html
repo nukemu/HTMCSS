@@ -8,10 +8,26 @@
     </head>
 <body>
     <video autoplay loop muted>
-        <source src="../../videos/Dancing rat (Chess type beat).mp4" type="video/mp4">
+        <source src="../../videos/snowfall.mp4" type="video/mp4">
     </video>
 <div class="registr-container">
-    <h1>Страница регистрации находится в разработке:)</h1>
+    <h2>Регистрация</h2>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="username">Имя пользователя</label>
+            <input type="text" id="username" name="username" placeholder="Введите имя пользователя" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Пароль</label>
+            <input type="password" id="password" name="password" placeholder="Введите пароль" required>
+            <label for="again-password">Повторите пароль</label>
+            <input type="password" id="again-password" name="again-password" placeholder="Повторите пароль" required>
+        </div>
+        <button type="submit" class="register-btn" href="../Mainstr/main.html">Зарегистрироваться</button>
+    </form>
+    <div class="login-link">
+        Есть аккаунт? <a href="../Login/login.html">Войти</a>
+    </div>
 </div>
 </body>
 </html>
